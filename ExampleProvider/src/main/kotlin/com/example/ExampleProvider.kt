@@ -1,3 +1,4 @@
+/*
 package com.example
 
 import com.lagradost.cloudstream3.TvType
@@ -27,6 +28,9 @@ class CB01 : MainAPI() { // all providers must be an instance of MainAPI
 
     // this function gets called when you search for something
     override suspend fun search(query: String): List<SearchResponse> {
+
         return listOf<SearchResponse>()
     }
-} 
+}
+
+*/
