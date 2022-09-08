@@ -1,9 +1,5 @@
 import com.lagradost.cloudstream3.gradle.CloudstreamExtension
 import com.android.build.gradle.BaseExtension
-import com.fasterxml.jackson.databind.DeserializationFeature
-import com.fasterxml.jackson.module.kotlin.KotlinModule
-import com.fasterxml.jackson.databind.json.JsonMapper
-import com.fasterxml.jackson.module.kotlin.readValue
 
 buildscript {
     repositories {
@@ -84,8 +80,8 @@ subprojects {
         implementation("com.github.Blatzar:NiceHttp:0.3.2") // http library
         implementation("org.jsoup:jsoup:1.13.1") // html parser
         implementation ("org.jsoup:jsoup:1.11.3")
-        compile  (group = "khttp", name = "khttp", version = "1.0.0")
         implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.11.3")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
     }
 }
 
