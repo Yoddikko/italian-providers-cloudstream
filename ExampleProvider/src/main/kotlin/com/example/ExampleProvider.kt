@@ -1,11 +1,11 @@
-/*
+
 package com.example
 
-import com.lagradost.cloudstream3.TvType
-import com.lagradost.cloudstream3.MainAPI
-import com.lagradost.cloudstream3.SearchResponse
+import com.lagradost.CB01
+//import com.lagradost.cloudstream3.TvType
+//import com.lagradost.cloudstream3.SearchResponse
 import com.lagradost.nicehttp.Requests
-import kotlinx.coroutines.*
+//import kotlinx.coroutines.*
 
 suspend fun main() {
     val app = Requests()
@@ -16,6 +16,7 @@ suspend fun main() {
     println(response)
 }
 
+/*
 class CB01 : MainAPI() { // all providers must be an instance of MainAPI
     override var mainUrl = "https://cb01.kaufen/"
     override var name = "CB01"
