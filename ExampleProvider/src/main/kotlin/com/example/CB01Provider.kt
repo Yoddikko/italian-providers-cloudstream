@@ -42,9 +42,11 @@ class CB01 : MainAPI() {
                 .substringBeforeLast("[")
             val link = it.selectFirst("a")!!.attr("href")
             val image = it.selectFirst("a")!!.attr("data-thumbnail")
-            val qualitydata = it.selectFirst("div.hd")
-            val quality = if (qualitydata != null) {
-                getQualityFromString(qualitydata.text())
+            //val qualitydata = it.selectFirst("div.hd")
+            val hdText = "[HD]"
+            val hd = title.contains(hdText, ignoreCase = false)
+            val quality = if (hd == true) {
+                SearchQuality.HD
             } else {
                 null
             }
