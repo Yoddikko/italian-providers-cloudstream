@@ -1,11 +1,11 @@
 // use an integer for version numbers
-version = 1
+version = 2
 
 
 cloudstream {
     // All of these properties are optional, you can safely remove them
 
-    description = "Lorem Ipsum"
+    description = "CB01 provider"
     authors = listOf("Cloudburst")
 
     /**
