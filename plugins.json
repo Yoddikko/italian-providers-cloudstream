@@ -10,9 +10,9 @@
     "tvTypes": [
       "Others"
     ],
-    "version": 2,
+    "version": 3,
     "internalName": "CB01",
-    "description": "Lorem Ipsum",
+    "description": "CB01 provider",
     "url": "https://raw.githubusercontent.com/Yoddikko/italian-providers-cloudstream/builds/ExampleProvider.cs3",
     "name": "CB01"
   }
