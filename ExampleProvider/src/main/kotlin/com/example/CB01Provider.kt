@@ -37,11 +37,11 @@ class CB01 : MainAPI() {
         val url = request.data + page
 
         val soup = app.get(url).document
-        val home = soup.select(".category-film.post").map {
+        val home = soup.select("div.category-film.post").map {
             val title = it.selectFirst("h3.card-title")!!.text().substringBeforeLast("(")
                 .substringBeforeLast("[")
             val link = it.selectFirst("a")!!.attr("href")
-            val image = it.selectFirst("a")!!.attr("data-thumbnail")
+            val image = it.selectFirst("a")!!.attr("div.card-image")
             //val qualitydata = it.selectFirst("div.hd")
             val hdText = "[HD]"
             val hd = title.contains(hdText, ignoreCase = false)
