@@ -5,7 +5,7 @@
     "fileSize": 15025,
     "status": 1,
     "authors": [
-      "Cloudburst"
+      "Yoddikko"
     ],
     "tvTypes": [
       "Others"
@@ -14,6 +14,6 @@
     "internalName": "CB01",
     "description": "Lorem Ipsum",
     "url": "https://raw.githubusercontent.com/Yoddikko/italian-providers-cloudstream/builds/ExampleProvider.cs3",
-    "name": "ExampleProvider"
+    "name": "CB01"
   }
 ]
