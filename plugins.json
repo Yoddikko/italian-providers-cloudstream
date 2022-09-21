@@ -10,7 +10,7 @@
     "tvTypes": [
       "Others"
     ],
-    "version": 6,
+    "version": 7,
     "internalName": "CB01",
     "description": "CB01 provider",
     "url": "https://raw.githubusercontent.com/Yoddikko/italian-providers-cloudstream/builds/ExampleProvider.cs3",

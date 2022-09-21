@@ -26,7 +26,7 @@ class CB01 : MainAPI() {
 
     override val mainPage = mainPageOf(
             Pair("$mainUrl/film", "Film"),
-        Pair("$mainUrl/serietv/", "Serie")
+        Pair("$mainUrl/serietv/page/", "Serie")
         //Pair("$mainUrl/prime-visioni/", "Ultime uscite"),
     )
 
@@ -34,7 +34,7 @@ class CB01 : MainAPI() {
         page: Int,
         request: MainPageRequest
     ): HomePageResponse {
-        val url = request.data + page
+        val url = request.data + page + "/"
 
         val soup = app.get(url).document
         val home = soup.select("div.category-film.post").map {

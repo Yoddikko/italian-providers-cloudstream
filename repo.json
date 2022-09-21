@@ -1,7 +1,7 @@
 {
     "name": "Italian providers repository",
     "description": "Cloudstream Italian Plugin Repository",
-    "manifestVersion": 1.04,
+    "manifestVersion": 1.05,
     "pluginLists": [
       "https://raw.githubusercontent.com/Yoddikko/italian-providers-cloudstream/master/plugins.json"
     ]
